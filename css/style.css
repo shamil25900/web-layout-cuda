@@ -1,0 +1,551 @@
+/* =============Global Class================ */
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    outline: 0%;
+    box-sizing: border-box;
+    font-family: arial,'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    padding: 60px 0px;
+}
+
+.underline{
+    border-bottom: 4px solid rgba(0, 0, 0, 0.492);
+    display: block;
+    width: 8%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+}
+
+/* ====================================================header part=========================================== */
+
+header{
+    background-color: #87509c;
+    color: white;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+nav{
+    padding: 15px;
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.logo-part{
+    width: 30%;
+    /* text-align: start; */
+    float: left;
+}
+
+.menu-part{
+    width: 70%;
+    float: left;
+}
+
+.menu-part ul{
+    list-style: none;
+}
+
+.menu-part ul li{
+    display: inline-block;
+    margin-top: 15px;
+    padding-left: 20px;
+
+}
+
+.menu-part ul li a{
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.menu-part ul li a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 5px;
+    transition: ease-in-out 0.2s;
+
+}
+
+.header-writing-part{
+    margin-bottom: 60px;
+}
+
+.header-writing-part h1{
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    line-height: 65px;
+}
+
+.header-writing-part a button{
+    width: 25%;
+    padding: 20px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    background-color: #eb7d4b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:0 4px rgba(153, 153, 153, 0.426);
+    /* opacity: 1;
+    bottom: 0px; */
+}
+
+.header-writing-part a button:hover{
+    background-color: #17c2a4;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* ==================================================section part================================ */
+
+/* =====================================service section================================ */
+
+#service{
+    background-color: #17c2a4;
+    color: white;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.service-writing-part{
+    float: left;
+    width: 100%;
+}
+
+.service-writing-part h1{
+    font-size: 40px;
+    word-spacing: 5px;
+}
+
+.service-writing-part h3{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.service-box-part{
+    width: 100%;
+    float: left;
+}
+
+.service-box{
+    width: 20%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.service-box h2{
+    padding: 25px 0px 10px;
+    /* margin-top: 5px; */
+}
+
+.service-box p{
+    font-weight: 100;
+    text-align: center;
+
+}
+
+/* =============================================team section========================= */
+
+#team{
+    background-color: #e7f1f8;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.team-writing-part{
+    width: 100%;
+    float: left;
+}
+
+.team-writing-part h1{
+    font-size: 40px;
+    word-spacing: 5px;
+}
+
+.team-writing-part p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.team-box-part{
+    width: 100%;
+    float: left;
+}
+
+.team-box{
+    width: 25%;
+    float: left;
+    padding: 25px;
+}
+
+.team-box img{
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 0, 0.478);
+}
+
+.team-box h2{
+    padding: 20px 0px 5px;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.team-box h3{
+    font-size: 17px;
+    font-weight: 500;
+    color: #17c2a4;
+    padding-bottom: 20px;
+}
+
+.team-box p{
+}
+
+
+/* =============================================skills section====================== */
+
+#skills{
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.skills-writing-part{
+    width: 100%;
+    float: left;
+}   
+
+.skills-writing-part h1{
+    font-size: 40px;
+    word-spacing: 5px;
+}
+
+.skills-writing-part p{
+    padding: 10px;
+}
+
+.skills-box-part{
+    width: 100%;
+    float: left;
+}
+
+.skills-box{
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+
+.skills-box img{
+    border-radius: 100%;
+}
+
+.skills-box h2{
+    padding: 20px;
+}
+
+/* ============================================Prtfolio section========================= */
+
+#portfolio{
+    background-color: #ffdd99;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.portfolio-writing-part{
+    width: 100%;
+    float: left;
+}
+.portfolio-writing-part h1{
+    font-size: 40px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+}
+.portfolio-writing-part p{
+    margin-bottom: 55px;
+}
+
+.portfolio-menu-part{
+    width: 100%;
+    float: left;
+}
+
+.portfolio-menu-part ul{
+    list-style: none;
+}
+
+.portfolio-menu-part ul li{
+    display: inline-block;
+    margin-bottom: 70px;
+    padding-left: 2px;
+}
+
+.portfolio-menu-part ul li a{
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.177);
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 100;
+}
+
+.portfolio-menu-part ul li a:hover{
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.2s;
+}
+
+.portfolio-box-part{
+    width: 100%;
+    float: left;
+}
+
+.portfolio-box-one{
+    width: 50%;
+    float: left;
+}
+
+.portfolio-box-one img{
+    padding: 50px;
+}
+
+.portfolio-box-one h2{
+
+}
+
+.portfolio-box-part a button{
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 50px;
+    padding: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    word-spacing: 4px;
+    box-shadow:0 4px rgba(153, 153, 153, 0.426);
+    color: white;
+    background-color: #17c2a4;
+    cursor: pointer;
+    font-synthesis: weight;
+}
+
+.portfolio-box-part a button:hover{
+    background-color:#87509c;
+}
+
+/* ===========================================About section======================== */
+
+#about{
+    background-color: #d74680;
+    color: white;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+/* #unique{
+    width: 80%;
+    margin: auto;
+} */
+
+.about-writing-part{
+    width: 100%;
+    float: left;
+}
+
+.about-writing-part h1{
+    font-size: 40px;
+    word-spacing: 5px;
+}
+.about-writing-part h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.about-row-one{
+    width: 100%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about-column-author{
+    width: 20%;
+    float: left;
+    text-align:end;
+
+}
+.about-column-author img{
+    border: 10px solid rgba(0, 0, 0, 0.478);
+    border-radius: 50%;
+}
+
+.about-column-comment{
+    width: 30%;
+    float: left;
+    text-align: start;
+    padding:5px 150px 0px 15px;
+}
+
+.about-column-comment p{
+    font-size: 20px;
+}
+
+.about-row-two{
+    width: 100%;
+    float: left;
+}
+
+.about-people{
+    width: 50%;
+    float: left;
+    padding: 10px 0px 10px 160px;
+    text-align: start;
+}
+
+.about-people h2{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.about-people h3{
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffdd99;
+}
+
+/* ==========================================contact part======================= */
+
+#contact{
+    background-color: #3c5499;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.contact-writing-part{
+    width: 100%;
+    float: left;
+    color: white;
+
+}
+
+.contact-writing-part h1{
+    font-size: 40px;
+    word-spacing: 5px;
+}
+.contact-writing-part p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.contact-form{
+    width: 100%;
+    margin: 20px 0px;
+    float: left;
+    text-align: center;
+}
+
+
+input, label{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 5px;
+}
+
+input[type="submit"]{
+    width: 25%;
+    padding: 20px;
+    margin: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color:#30bae7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:0 4px rgba(153, 153, 153, 0.426);
+
+}
+
+input[type="submit"]:hover{
+    background-color:#ffffff;
+    cursor: pointer;
+    transition: 0.2s;
+    color: black;
+}
+
+#name{
+    background-color: rgba(0, 0, 0, 0.345);
+    padding: 10px;
+    width: 30%;
+}
+
+#email{
+    background-color: rgba(0, 0, 0, 0.345);
+    width: 30%;
+    padding: 10px;
+}
+
+#message{
+    background-color: rgba(0, 0, 0, 0.345);
+    margin-top: 20px;
+}
+
+/* =============================================footer================================= */
+
+#footnote{
+    width: 100%;
+    background-color: #344b8e;
+    float: left;
+}
+
+footer{
+    height: 70px;
+    text-align: center;
+    
+}
+
+.footmenu{
+    width: 100%;
+     float: left;
+     margin-top: 30px;
+}
+
+.footmenu ul{
+ list-style: none;
+}
+
+.footmenu ul li{
+ display: inline-block;
+ padding: 0px 15px;
+}
+
+.footmenu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footmenu ul li a:hover{
+    color: #30bae7;
+
+}
